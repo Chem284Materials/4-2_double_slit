@@ -19,7 +19,7 @@ $$\psi(\vec{x}, t) = e^{-i \hat{H} t/ \hbar}\psi(\vec{x}, 0)$$
 
 It might not be particularly obvious what $e^{-i \hat{H} t/ \hbar}\psi(\vec{x}, t)$ actually *means*, though.
 How does an operator like $\hat{H}$ or $\nabla^2$ work when it is in an exponent?
-A common way to handle the time evolution operator is to expand it in a Taylor Series:
+A common way to handle the time evolution operator is to expand it in a Taylor series:
 
 $$e^{-i \hat{H} t/ \hbar} = 1 - i \hat{H} \Delta t - \frac{1}{2} \hat{H}^2 (\Delta t)^2 + ...$$
 
