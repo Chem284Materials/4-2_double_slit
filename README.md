@@ -56,7 +56,7 @@ Similarly, we can numerically approximate the second derivative as:
 
 $$\frac{d^2 f(x)}{d x^2} \approx \frac{1}{\Delta x} \[\frac{d f(x + \Delta x)}{d x} - \frac{d f(x - \Delta x)}{d x}\]$$
 
-Substituting back in our approximation for the first derivative, we get:
+Substituting in our approximation for the first derivative, we get:
 
 $$\frac{d^2 f(x)}{d x^2} \approx \frac{1}{\Delta x} \[\frac{f(x + \Delta x) - f(x)}{\Delta x} - \frac{f(x) - f(x - \Delta x)}{\Delta x}\] = \frac{f(x + \Delta x) + f(x - \Delta x) - 2 f(x)}{\Delta x^2}$$
 
