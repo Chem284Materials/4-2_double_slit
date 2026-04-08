@@ -39,7 +39,8 @@ If you run the code in this repository (`animation.py`), you will find that it c
 Currently, the code does not perform any time evolution; you must implement the time-evolution functionality described above, **using CUDA**.
 
 Set $\hbar$ and the mass of the particle to 1 in your code.
-Treat the simulation cell as periodic.
+Treat the simulation cell as periodic, with each pixel in the animation corresponding to one grid point.
+As indicated in the code, in order to run the simulation faster, you may find it helpful to run numerous time steps per animation frame - there's no need to have a frame for every time step.
 
 Note that a potential energy surface (a hard wall with two slits) is created by the starting code.
 The time evolution you implement should incorporate this potential into $\hat{H}$.
